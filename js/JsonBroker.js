@@ -17,11 +17,11 @@ this.BD = this.BD || {};
             });
         }
 
-		this.setJSON = function(data){
+        this.setJSON = function(data){
             json = data;
         }
 		
-		this.getJSON = function(){
+        this.getJSON = function(){
             return json;
         }
 		
@@ -37,7 +37,7 @@ this.BD = this.BD || {};
             }
         }
 
-		this.getSubscriptionsData = function(){
+        this.getSubscriptionsData = function(){
             return this.getData2("package");
         }
 		

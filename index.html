@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html ng-app="skyApp">
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <head>
         <link rel="stylesheet" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
         <script src="js/JsonBroker.js"></script>
@@ -38,10 +38,10 @@
             <div>
                 <div class="heading">Package</div>
                 <div class="heading sub">
-					<span>Type</span>
-					<span>Name</span>
-					<span>Cost</span>
-				</div>
+                    <span>Type</span>
+                    <span>Name</span>
+                    <span>Cost</span>
+                </div>
                 <ul>
                     <li ng-repeat="category in subscriptions">
                         <div class="heading category">{{category.title}}</div>
@@ -54,27 +54,27 @@
                         </ul>
                     </li>
                 </ul>
-				<ul>
+                <ul>
                     <li ng-repeat="data in subscriptions">
                         <span class="caps">{{data.type}}</span>
                         <span>{{data.name}}</span>
                         <span>{{data.cost | currency:"£"}}</span>
                     </li>
                 </ul>
-				<div class="total">
-					<span>Sub total</span>
+                <div class="total">
+                    <span>Sub total</span>
                     <span></span>
                     <span>{{subscriptionsTotal | currency:"£"}}</span>
-				</div>
+                </div>
             <div>
             <div>
                 <div class="heading">Call Charges</div>
                 <div class="heading sub">
-					<span>Called</span>
-					<span>Duration</span>
-					<span>Cost</span>
-				</div>
-				<ul>
+                    <span>Called</span>
+                    <span>Duration</span>
+                    <span>Cost</span>
+                </div>
+                <ul>
                     <li ng-repeat="data in callCharges">
                         <span>{{data.called}}</span>
                         <span>{{data.duration}}</span>
@@ -82,10 +82,10 @@
                     </li>
                 </ul>
                 <div class="total">
-					<span>Sub total</span>
+                    <span>Sub total</span>
                     <span></span>
                     <span>{{callChargesTotal | currency:"£"}}</span>
-				</div>
+                </div>
             <div>
             <div class="heading">Sky Store</div>
             <div class="heading sub">
