@@ -1,54 +1,39 @@
 .container {
-    font-family: Droid Sans;
-    background-color: #fff;
-    width: 100%;
-    max-width: 800px;
-    min-width: 400px;
-}
-
-.container .caps {
-    text-transform: capitalize;
-}
-
-.container ul, 
-.container li {
+  font: 100% Droid Sans;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px; }
+  .container .caps {
+    text-transform: capitalize; }
+  .container ul,
+  .container li {
     list-style: none;
     list-style-type: none;
     margin: 0;
-    padding:3px 0px;
-}
-
-.container .heading{
-	font-weight: bold;
+    padding: 3px 0px; }
+  .container .heading {
+    font-weight: bold;
     background-color: #017aaf;
-	color:#fff;
-	padding:5px;
-}
-
-.container .large{
-    font-size: 24px;
-}
-
-.container .heading.sub{
+    color: #fff;
+    padding: 5px; }
+  .container .heading.sub {
     background-color: #eee;
-	color:#000;
-}
-
-.container .heading.category{
+    color: #000; }
+  .container .heading.category {
     background-color: #eee;
-	color:#000;
-    font-style: italic;
-}
-
-.container .total{
+    color: #000;
+    font-style: italic; }
+  .container .large {
+    font-size: 24px; }
+  .container .total {
     border-top: 1px solid #ccc;
     background-color: #fff;
-	color:#000;
+    color: #000;
     font-weight: bold;
-    padding:5px;
-}
-
-.container span {
+    padding: 5px; }
+  .container span {
     display: inline-block;
-    width:30%;
-}
+    width: 30%; }
+
+/*# sourceMappingURL=style.css.map */

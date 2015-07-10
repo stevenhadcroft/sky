@@ -1,0 +1,57 @@
+$font-stack: Droid Sans;
+$colour-blue: #017aaf;
+$colour-light-grey: #eee;
+
+.container {
+    font: 100% $font-stack;
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+
+    .caps {
+        text-transform: capitalize;
+    }
+    
+    ul, 
+    li {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding:3px 0px;
+    }
+
+    .heading{
+        font-weight: bold;
+        background-color: $colour-blue;
+        color:#fff;
+        padding:5px;
+    }
+
+    .heading.sub{
+        background-color: $colour-light-grey;
+        color:#000;
+    }
+
+    .heading.category{
+        background-color: $colour-light-grey;
+        color:#000;
+        font-style: italic;
+    }
+    .large{
+        font-size: 24px;
+    }
+
+    .total{
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+        color:#000;
+        font-weight: bold;
+        padding:5px;
+    }
+
+    span {
+        display: inline-block;
+        width:30%;
+    }
+}
