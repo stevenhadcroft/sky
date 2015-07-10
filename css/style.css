@@ -1,0 +1,58 @@
+* {
+	font-family: Droid Sans;
+}
+
+.caps {
+    text-transform: capitalize;
+}
+
+ul, li {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding:3px 0px;
+}
+
+
+.heading{
+	font-weight: bold;
+    background-color: #017aaf;
+	color:#fff;
+	padding:5px;
+}
+
+.large{
+    font-size: 24px;
+}
+
+.heading.sub{
+    background-color: #eee;
+	color:#000;
+}
+
+.heading.category{
+    background-color: #eee;
+	color:#000;
+    font-style: italic;
+}
+
+.total{
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+	color:#000;
+    font-weight: bold;
+    padding:5px;
+}
+
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+span {
+    display: inline-block;
+    width:30%;
+}
