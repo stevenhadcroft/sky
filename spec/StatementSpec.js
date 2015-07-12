@@ -22,22 +22,22 @@ describe("Player", function() {
         expect(result).toBeTruthy();
     })
     
-    it("statement 'generated' should be a truthy", function () { 
+    it("statement 'generated' should be truthy", function () { 
         var result = broker.getStatementData().generated;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'due' should be a truthy", function () { 
+    it("statement 'due' should be truthy", function () { 
         var result = broker.getStatementData().due;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'from' should be a truthy", function () { 
+    it("statement 'from' should be truthy", function () { 
         var result = broker.getStatementData().from;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'to' should be a truthy", function () { 
+    it("statement 'to' should be truthy", function () { 
         var result = broker.getStatementData().to;
         expect(result).toBeTruthy();
     })
