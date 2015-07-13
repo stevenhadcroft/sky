@@ -12,62 +12,62 @@ describe("Player", function() {
 		
 	});
 
-    it("JSON should be truthy", function () {
+    it("getJSON should be truthy", function () {
         json = broker.getJSON();
         expect(json).toBeTruthy();
     })
 	
-    it("statement 'total' should be a Number", function () { 
+    it("getStatementData 'total' should be a Number", function () { 
         var result = broker.getStatementData().total;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'generated' should be truthy", function () { 
+    it("getStatementData 'generated' should be truthy", function () { 
         var result = broker.getStatementData().generated;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'due' should be truthy", function () { 
+    it("getStatementData 'due' should be truthy", function () { 
         var result = broker.getStatementData().due;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'from' should be truthy", function () { 
+    it("getStatementData 'from' should be truthy", function () { 
         var result = broker.getStatementData().from;
         expect(result).toBeTruthy();
     })
     
-    it("statement 'to' should be truthy", function () { 
+    it("getStatementData 'to' should be truthy", function () { 
         var result = broker.getStatementData().to;
         expect(result).toBeTruthy();
     })
     
-    it("subscriptions 'list' should be truthy", function () {		 
+    it("getSubscriptionsData 'list' should be truthy", function () {		 
         var result = broker.getSubscriptionsData().list;
         expect(result).toBeTruthy();
     })
     	
-    it("callCharges 'list' should be truthy", function () {		 
+    it("getCallChargesData 'list' should be truthy", function () {		 
         var result = broker.getCallChargesData().list;
         expect(result).toBeTruthy();
     })
 
-    it("skyStore 'list' should be truthy", function () {		 
+    it("getSkyStoreData 'list' should be truthy", function () {		 
         var result = broker.getSkyStoreData().list;
         expect(result).toBeTruthy();
     })
 	
-    it("subscriptionsTotal 'total' should be a Number", function () { 
+    it("getSubscriptionsData 'total' should be a Number", function () { 
         var result = broker.getSubscriptionsData().total;
         expect(result).toEqual(jasmine.any(Number));
     })
     	
-    it("callCharges 'total' should be a Number", function () { 
+    it("getCallChargesData 'total' should be a Number", function () { 
         var result = broker.getCallChargesData().total;
         expect(result).toEqual(jasmine.any(Number));
     })
 	
-    it("skyStore 'total' should be a Number", function () {
+    it("getSkyStoreData 'total' should be a Number", function () {
         var result = broker.getSkyStoreData().total;
         expect(result).toEqual(jasmine.any(Number));
     })
